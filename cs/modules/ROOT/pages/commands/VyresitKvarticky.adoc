@@ -1,0 +1,21 @@
+= SolveQuartic Command
+:page-en: commands/SolveQuartic
+ifdef::env-github[:imagesdir: /en/modules/ROOT/assets/images]
+
+[NOTE]
+====
+
+Tato stránka popisuje příkaz, který je podporován jen ve verzi link:https://beta.geogebra.org/cas[GeoGebra beta].
+====
+
+== CAS Syntax
+
+VyresitKvarticky( <Polynom 4. stupně> )::
+  Řešení https://cs.wikipedia.org/wiki/Kvartick%C3%A1_rovnice[kvartické rovnice], vrací seznam všech řešení.
+
+[EXAMPLE]
+====
+
+`++VyresitKvarticky[ x^4 + x^3 + x^2 + x ]++` vypíše {0, -1, _i_, -_i_ }
+
+====
